@@ -21,7 +21,6 @@ $update = function () {
 ?>
 
 <div>
-    <a href="{{ route('articles.show', $article) }}">一覧へ戻る</a>
     <h1>投稿論文編集</h1>
 
     <!-- wire:submit="update"でフォーム送信時にupdate関数を呼び出し -->
@@ -37,7 +36,6 @@ $update = function () {
             <textarea wire:model="body" id="body"></textarea>
         </p>
 
-        
         <button type="submit">更新</button>
     </form>
 </div>

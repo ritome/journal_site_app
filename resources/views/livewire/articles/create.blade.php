@@ -19,7 +19,7 @@ $store = function () {
 ?>
 
 <div>
-    <a href="{{ route('articles.index') }}">戻る</a>
+    
     <h1>新規論文投稿</h1>
 
     <!-- wire:submit="store"でフォーム送信時にstore関数を呼び出し -->
