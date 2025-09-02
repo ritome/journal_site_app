@@ -53,4 +53,15 @@ $update = function () {
 
         <button type="submit">更新</button>
     </form>
+
+    <style>
+        #title:focus {
+            background-color: #e0f7fa;
+            /* 入力中は薄い水色 */
+            border: 2px solid #2196f3;
+            /* 青い枠線 */
+            outline: none;
+            /* デフォルトの枠線を消す */
+        }
+    </style>
 </div>
