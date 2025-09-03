@@ -15,9 +15,13 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+        // User::factory()->create([
+        //     'name' => 'Test User',
+        //     'email' => 'test@example.com',
+        // ]);
+         // ArticleSeeder（シーダークラス）の呼び出し
+        if (config('app.env') == 'local') {
+            $this->call(ArticleSeeder::class);
+        }       
     }
 }
