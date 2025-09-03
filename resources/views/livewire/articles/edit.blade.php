@@ -54,11 +54,4 @@ $update = function () {
         <button type="submit">更新</button>
     </form>
 
-    <style>
-        #title:focus {
-            background-color: #e0f7fa;
-            border: 2px solid #2196f3;
-            outline: none;
-        }
-    </style>
 </div>
